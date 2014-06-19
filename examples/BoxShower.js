@@ -35,20 +35,20 @@ SDL.events.on( 'KEYDOWN', function ( evt ) {
     }
 
     if( ( evt.sym == 99 ) && ( evt.mod === 0 ) ) {
-	if( doit ) {
-	    doit = false;
-	} else {
-	    doit = true;
-	}
+  if( doit ) {
+      doit = false;
+  } else {
+      doit = true;
+  }
     }
 } );
 
 SDL.events.on( 'tick', function ( d ) {
     if( doit ) {
-	var x = Math.floor( Math.random() * (screen.w - 20 ) );
-	var y = Math.floor( Math.random() * (screen.h - 20 ) );
-	SDL.blitSurface( rectangles[ count % rl ], null, screen, [x, y] );
-	SDL.flip( screen );
-	count++;
+  var x = Math.floor( Math.random() * (screen.w - 20 ) );
+  var y = Math.floor( Math.random() * (screen.h - 20 ) );
+  SDL.blitSurface( rectangles[ count % rl ], null, screen, [x, y] );
+  SDL.flip( screen );
+  count++;
     }
 } );
