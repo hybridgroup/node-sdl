@@ -3,7 +3,7 @@
 
 #include <v8.h>
 #include <node.h>
-#include "SDL.h"
+#include "SDL2/SDL.h"
 
 
 namespace sdl {

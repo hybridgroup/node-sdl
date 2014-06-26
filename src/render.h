@@ -2,9 +2,9 @@
 #define NODESDL_RENDER_H
 
 #include <node.h>
-#include <v8.H>
+#include <v8.h>
 
-#include "SDL.h"
+#include "SDL2/SDL.h"
 
 
 namespace sdl {

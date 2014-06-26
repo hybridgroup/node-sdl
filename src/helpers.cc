@@ -1,8 +1,8 @@
 #include <v8.h>
 #include <node.h>
 #include <node_buffer.h>
-#include "SDL.h"
-#include "SDL_ttf.h"
+#include "SDL2/SDL.h"
+#include "SDL2/SDL_ttf.h"
 
 #include "helpers.h"
 #include "struct_wrappers.h"

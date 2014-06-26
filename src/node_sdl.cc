@@ -3,8 +3,8 @@
 #include <objc/objc-runtime.h>
 #endif
 
-#include "SDL.h"
-#include "SDL_revision.h"
+#include "SDL2/SDL.h"
+#include "SDL2/SDL_revision.h"
 #include "node_sdl.h"
 #include "struct_wrappers.h"
 #include "window.h"
