@@ -1,21 +1,25 @@
 {
-  "name": "sdl",
-  "version": "0.1.8",
+  "name": "hybridgroup-sdl",
+  "version": "0.2.0",
   "main": "sdl.js",
   "description": "SDL bindings for node",
 
-  "author": "Tim Caswell <tim@creationix.com> (http://creationix.com/)",
+  "author": "The Hybrid Group <cylonjs@hybridgroup.com>",
+
+  "contributors": [
+    "Tim Caswell <tim@creationix.com> (http://creationix.com/)",
+    "Andrew Stewart <andrew@hybridgroup.com>",
+    "Adrian Zankich <adrian@hybridgroup.com>"
+  ],
 
   "repository": {
     "type": "git",
-    "url": "git://github.com/creationix/node-sdl.git"
+    "url": "git://github.com/hybridgroup/node-sdl.git"
   },
 
   "engines": {
     "node": ">=0.10.0"
   },
-  "dependencies": {
-    "node-gyp": "~0.13.1"
-  },
+
   "license": "MIT"
 }
