@@ -7,7 +7,7 @@
 #include "render.h"
 #include "container.h"
 
-#include "SDL2/SDL.h"
+#include "SDL.h"
 
 using namespace v8;
 

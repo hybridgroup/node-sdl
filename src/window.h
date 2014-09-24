@@ -4,7 +4,7 @@
 #include <node.h>
 #include <v8.h>
 
-#include "SDL2/SDL.h"
+#include "SDL.h"
 
 namespace sdl {
 	class WindowWrapper : public node::ObjectWrap {
