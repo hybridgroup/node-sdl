@@ -1,7 +1,7 @@
 #include "container.h"
 #include <iostream>
 #include <sstream>
-#include "SDL.h"
+#include "SDL2/SDL.h"
 #include "struct_wrappers.h"
 
 using namespace v8;

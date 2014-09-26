@@ -1,5 +1,5 @@
 #include "render.h"
-#include "SDL.h"
+#include "SDL2/SDL.h"
 #include "helpers.h"
 #include "texture.h"
 #include "surface.h"
